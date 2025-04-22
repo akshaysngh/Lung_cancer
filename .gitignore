@@ -1,0 +1,41 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore model weights if not versioning them
+model.h5
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm / Other IDEs
+.vscode/
+.idea/
+
+# Streamlit cache (optional)
+.streamlit/
+
+# Jupyter Notebook hidden files
+*.nbconvert.ipynb
+
+# Ignore test outputs (optional)
+*.out
+*.pdf
+
+LungcancerDataSet/
+
